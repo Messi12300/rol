@@ -52,7 +52,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/malayalammoviesdownloader')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('Help ⚙', url="https://t.me/malayalammoviesdownloader")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
