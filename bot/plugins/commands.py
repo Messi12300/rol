@@ -49,11 +49,7 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/newmoviesottrelease'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/malayalammoviesdownloader')
-    ],[
-        InlineKeyboardButton('Help ⚙', url="https://t.me/malayalammoviesdownloader")
-    ]]
+    ],
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
